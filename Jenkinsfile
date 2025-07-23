@@ -11,7 +11,7 @@ pipeline {
         stage('List Website Files') {
             steps {
                 echo "Files in the aperture-homepage directory:"
-                sh 'ls -lh aperture-homepage/'
+                sh 'ls -lh'
             }
         }
 
