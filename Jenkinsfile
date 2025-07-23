@@ -17,7 +17,7 @@ pipeline {
 
         stage('Archive Website Files') {
             steps {
-                archiveArtifacts artifacts: 'aperture-homepage/**', fingerprint: true
+                archiveArtifacts artifacts: '**', fingerprint: true
             }
         }
 
